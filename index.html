@@ -1,16 +1,21 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-	 <link rel="stylesheet" href="./index.css">
-	 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />	
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<link rel="stylesheet" href="./index.css">
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />	
 
-    <title>Julian Franco</title>
-  </head>
-  <body>
+		<link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
+		<link rel="manifest" href="./icons/site.webmanifest">
+
+		<title>Julian Franco</title>
+	</head>
+	<body>
       <div class="container-fluid text-center pt-5 px-0 landing-bg">
 			<img class="rounded-circle profile-image mb-4" style="max-height: 300px;" src="./assets/profileImage.png" alt="Avatar de Julian" 
 			data-aos="fade-zoom-in"
@@ -22,7 +27,7 @@
 				data-aos-duration="1000"
 				data-aos-once="true"
 				>Julian Franco</h1>
-				<hr style="border: 1px solid antiquewhite; width: 450px;"
+				<hr style="border: 1px solid antiquewhite; max-width: 450px;"
 				data-aos="zoom-out"
 				data-aos-duration="1000">
 				<p class="one-rem-spaced"
@@ -103,7 +108,7 @@
 							</div>
 							<p class="card-text project-description hide-description mb-1">Pagina para venta de ropa utilizando Create React App con TypeScript, pagos Stripe, Firebase, NodeJS, Redux, Redux-saga, Styled-components. Autenticacion por google y correo a través de Firebase. Integración con base de datos NoSQL Firestore. Manejo de estado con Redux, Redux-Saga. Versión 1 desplegada en Heroku. 
 							</p>
-							<span class="leer-mas text-muted">...Leer mas</span>
+							<span class="leer-mas btn btn-outline-secondary mb-2">...Leer mas</span>
 							<br>
 							<a href="https://ecommerce-react-typescript.herokuapp.com/" class="btn btn-primary mb-2" target="_blank">Visitar Pagina</a>
 							<br>
@@ -119,6 +124,9 @@
                <div class="card shadow-lg mx-3 my-3">
 						<div class="text-center py-4">
 							<img src="./assets/CFVirrey.png" class="card-img-top" alt="logo CrossFit Virrey" style="max-height: 192px; max-width: 192px;">
+							<br>
+							<img src="./assets/nodejs-1.svg" class="card-img-top" alt="logo CrossFit Virrey" style="width: 50%;">
+							<img src="./assets/mongodb.svg" class="card-img-top" alt="logo CrossFit Virrey" style="width: 50%;">
 						</div>
                   <div class="card-body">
 							<h5 class="card-title">Plataforma Administrativa CrossFit</h5>
@@ -132,9 +140,9 @@
 							<p class="card-text project-description hide-description mb-1">
 								Solución para la digitalización de un gimnasio de CrossFit. El servidor y la plataforma automatizaron la parte mas compleja de la administración del negocio, integro a la comunidad mas, y nos permite ver datos precisos y concisos sobre el desempeño del negocio permitiendo enfocarse en el desarrollo y crecimiento empresarial y no en los procesos diarios. Clientes del gimnasio crean un usuario, usando su correo local, con token de verificación, u OAuth 2.0 a través del API de Google. Los clientes tienen un perfil con información de su plan, personal, y de desempeño si desean incluirla. Los clientes tienen acceso a todas las rutinas del gimnasio donde pueden ver los detalles de la rutina, subir sus puntajes, y comentar acerca de la rutina. Los clientes tienen acceso a un sistema de reservas donde pueden crear 1 reserva por día en las clases disponibles. Los usuarios reciben un correo cuando se procesa el pago de su plan (Node mailer con Sendgrid), y se actualizan los datos del perfil para acomodar el ultimo plan. Para administradores y coaches hay diferentes permisos y acceso al lado administrativo de la plataforma. El administrador puede validar usuarios, procesar los pagos (Pendientes, parciales, totales), ver el flujo de caja de cada mes y los detalles de cada pago, ver el histórico de usuarios, y el histórico de planes del gimnasio. Los pagos registran la transacción y el administrador que la proceso, pueden ser cancelados mas no editados para tener un registro de todos los movimientos alrededor de un pago. Los planes de los usuarios se pueden editar, expandir, cambiar, alterar el cobro, y estas ediciones dejan un registro de quien lo proceso. Los administradores crean las clases que van a haber en la semana, y los coaches pueden programar que clases van a dar.
 							</p>
-							<span class="leer-mas text-muted">...Leer mas</span>
+							<span class="leer-mas btn btn-outline-secondary mb-2">...Leer mas</span>
 							<br>
-							<a href="https://ecommerce-react-typescript.herokuapp.com/" class="btn btn-primary mb-2" target="_blank">Video de la Pagina</a>
+							<a href="https://www.loom.com/share/4aa2e88b7e61444c939e8e2f24de9045" class="btn btn-primary mb-2" target="_blank">Video de la Pagina</a>
 						</div>
 					</div>
 				</div>
@@ -156,7 +164,7 @@
 							<p class="card-text project-description hide-description mb-1">
 								Lista de tareas interactiva con implementación de arrastrar y soltar nativa de JavaScript. Desarrollada en TypeScript utilizando el paradigma de OOP (Programación Orientada a Objetos). Renderización hecha en el navegador por el lado del cliente utilizando HTML &lt;template&gt; y manipulación directa del DOM. En el repositorio se puede ver todo el código en un solo archivo para mas fácil análisis del código.
 							</p>
-							<span class="leer-mas text-muted">...Leer mas</span>
+							<span class="leer-mas btn btn-outline-secondary mb-2">...Leer mas</span>
 							<br>
 							<a href="https://marlrus.github.io/ts-vanilla-drag-and-drop/" class="btn btn-primary mb-2" target="_blank">Visitar Pagina</a>
 							<br>
@@ -182,7 +190,7 @@
 							<p class="card-text project-description hide-description mb-1">
 								Proyecto de React Usando JavaScript y JSX. Hace llamada a 2 APIs (JSONPlaceholder, robohash.org) para crear cartas de usuarios con imágenes. Puede presentar un problema de CORS desde github pages con el servidor del API, pero instalándolo localmente funciona todas las veces. Después de creadas las tarjetas, se pueden filtrar los usuarios en tiempo real por los nombres utilizando onChange() y el estado de los componentes. 
 							</p>
-							<span class="leer-mas text-muted">...Leer mas</span>
+							<span class="leer-mas btn btn-outline-secondary mb-2">...Leer mas</span>
 							<br>
 							<a href="https://marlrus.github.io/monsterRolodex/" class="btn btn-primary mb-2" target="_blank">Visitar Pagina</a>
 							<br>
@@ -205,7 +213,7 @@
 							<p class="card-text project-description hide-description mb-1">
 								En los repositorios de mi GitHub hay proyectos cortos para funcionalidad puntual como implementación de OAuth 2.0 con Google y Facebook a través de NodeJS y Passport JS. Implementación de autenticación local con PassportJS y verificación de correo usando NodeMailer integrado con Sendgrid. Hay material de estudio personal sobre la aplicación del Paradigma de Programación Funcional (FP: Functional Programming) en JavaScript y TypeScript para procesar datos sin efectos secundarios, mas trazabilidad, y mejor composición de objetos.  
 							</p>
-							<span class="leer-mas text-muted">...Leer mas</span>
+							<span class="leer-mas btn btn-outline-secondary mb-2">...Leer mas</span>
 							<br>
 							<a href="https://github.com/Marlrus" class="btn btn-primary mb-2" target="_blank">Visitar Perfil Github</a>
 						</div>
