@@ -36,8 +36,15 @@
 }
 
 .logo-square {
+	margin: 2px;
 	max-height: 80px;
 	max-width: 80px;
+}
+
+.logo-long {
+	margin: 2px;
+	max-height: 80px;
+	max-width: 160px;
 }
 
 .logo-xs {
@@ -48,11 +55,6 @@
 .logo-long-xs {
 	max-height: 30px;
 	max-width: 60px;
-}
-
-.logo-long {
-	max-height: 80px;
-	max-width: 160px;
 }
 
 .font-size-med {
