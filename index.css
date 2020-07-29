@@ -6,6 +6,7 @@
 	background-color: #4f4b54;
 	background-image: url(./assets/light-bg.svg);
 	background-size: cover;
+	background-position: center;
 }
 
 .profile-image {
