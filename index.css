@@ -4,7 +4,8 @@
 
 .landing-bg {
 	background-color: #4f4b54;
-	background-image: url(./assets/light-bg-continous.svg);
+	background-image: url(./assets/light-bg.svg);
+	background-size: cover;
 }
 
 .profile-image {
