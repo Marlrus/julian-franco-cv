@@ -25,6 +25,10 @@
 	letter-spacing: 0.1rem;
 }
 
+.half-rem-spaced {
+	letter-spacing: 0.5rem;
+}
+
 .one-rem-spaced {
 	letter-spacing: 1.25rem;
 }
